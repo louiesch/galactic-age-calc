@@ -12,6 +12,6 @@ export default class Person {
   }
 
   getMarsAge() {
-    
+    return(this.age / 1.88)
   }
 }

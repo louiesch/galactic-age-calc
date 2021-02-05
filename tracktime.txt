@@ -4,3 +4,4 @@
 11:00AM Taking lunch.
 12:05PM had to do a math refresher... whoops
 12:35PM reading up on beforeEach() in lessons to DRY code
+1:00PM I realized I want the age to be a whole number, not a decimal. And specifically I want the number rounded down. Currently looking up how to do that.
