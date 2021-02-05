@@ -21,6 +21,10 @@ export default class Person {
   }
 
   earthYearsLeft() {
-    return Math.floor(81 - this.age)
+    return Math.floor(this.lifespan - this.age)
+  }
+
+  mercuryYearsLeft() {
+    
   }
 }
