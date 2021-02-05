@@ -8,6 +8,6 @@ export default class Person {
   }
 
   getVenusAge() {
-    
+    return(this.age / 0.62)
   }
 }
