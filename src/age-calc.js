@@ -55,6 +55,6 @@ export default class Person {
   }
 
   marsYearsLeft() {
-    
+    return Math.floor((this.lifespan - this.age) / 1.88);
   }
 }
