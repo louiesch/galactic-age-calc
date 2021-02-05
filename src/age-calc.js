@@ -16,19 +16,23 @@ export default class Person {
   // }
 
   getMercuryAge() {
-    return Math.floor(this.age / 0.24)
+    let ageOnMercury = Math.floor(this.age / 0.24);
+    return ageOnMercury;
   }
 
   getVenusAge() {
-    return Math.floor(this.age / 0.62)
+    let ageOnVenus = Math.floor(this.age / 0.62);
+    return ageOnVenus;
   }
 
   getMarsAge() {
-    return Math.floor(this.age / 1.88)
+    let ageOnMars = Math.floor(this.age / 1.88);
+    return ageOnMars;
   }
 
   getJupiterAge() {
-    return Math.floor(this.age / 11.86)
+    let ageOnJupiter = Math.floor(this.age / 11.86);
+    return ageOnJupiter
   }
 
   //calculate years left on planet, in that planet's years
