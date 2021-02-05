@@ -4,6 +4,10 @@ export default class Person {
   }
 
   getMercuryAge() {
+    return(this.age / 0.24)
+  }
+
+  getVenusAge() {
     
   }
 }
