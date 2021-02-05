@@ -67,6 +67,8 @@ export default class Person {
   }
 
   yearsPast() {
-  
+    if (this.lifespan < this.age); {
+      return (this.age - this.lifespan)
+    }
   }
 }
