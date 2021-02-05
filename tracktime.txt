@@ -1,5 +1,6 @@
-9:13AM: Currently going back through lessons to get Jest set up and running properly
-10:00AM: Still having issues with Jest VS Code extension
-10:30AM: Will try reinstalling extension again. Working now, onto writing tests.
-11:00AM: Taking lunch.
-12:05AM: had to do a math refresher... whoops
+9:13AM Currently going back through lessons to get Jest set up and running properly
+10:00AM Still having issues with Jest VS Code extension
+10:30AM Will try reinstalling extension again. Working now, onto writing tests.
+11:00AM Taking lunch.
+12:05PM had to do a math refresher... whoops
+12:35PM reading up on beforeEach() in lessons to DRY code
