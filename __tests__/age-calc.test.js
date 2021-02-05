@@ -5,7 +5,7 @@ describe('Person', () => {
   let person;
 
   beforeEach(() => {
-    person = new Person(23);
+    person = new Person(23, 81);
   });
 
   test("should correctly return users age in earth years", () => {
@@ -26,5 +26,9 @@ describe('Person', () => {
 
   test("should correctly return users age in Jupiter years", () => {
     expect(person.getJupiterAge()).toEqual(Math.floor(23 / 11.86))
+  })
+
+  test('should correctly return expected years left to live on Earth', () => {
+    expect(person.earthYearsLeft()).toEqual(Math.floor(81 - 23))
   })
 });

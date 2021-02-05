@@ -1,6 +1,7 @@
 export default class Person {
-  constructor(age) {
+  constructor(age, lifespan) {
     this.age = age;
+    this.lifespan = lifespan;
   }
 
   getMercuryAge() {
@@ -17,5 +18,9 @@ export default class Person {
 
   getJupiterAge() {
     return Math.floor(this.age / 11.86)
+  }
+
+  earthYearsLeft() {
+    
   }
 }
