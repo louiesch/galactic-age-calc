@@ -6,3 +6,4 @@
 12:35PM reading up on beforeEach() in lessons to DRY code and tests
 1:00PM I realized I want the age to be a whole number, not a decimal. And specifically I want the number rounded down. Currently looking up how to do that.
   I think I found what I want, math.floor() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+2:15PM my business logic can deinitely be refactored, just trying to figure out how. Tried a loop, didn't work.

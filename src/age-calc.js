@@ -2,9 +2,19 @@ export default class Person {
   constructor(age, lifespan) {
     this.age = age;
     this.lifespan = lifespan;
+    this.yearsLeft = [];
+    this.planets = ['Earth', 'Mercury', 'Venus', 'Mars', 'Jupiter']
+    this.yearConversionRate = {Earth: 1, Mercury: 0.24, Venus: 0.62, Mars: 1.88, Jupiter: 11.86}
   }
 
 //calculate age on given planet
+  // getPlanetAge() {
+  //   for (let i = 0; i < this.planets.length; i++) {
+  //     let planet = this.planets[i];
+  //     this.yearsLeft[planet] = Math.floor(this.age / this.yearConversionRate[planet])
+  //   }
+  // }
+
   getMercuryAge() {
     return Math.floor(this.age / 0.24)
   }
@@ -20,7 +30,6 @@ export default class Person {
   getJupiterAge() {
     return Math.floor(this.age / 11.86)
   }
-  
 
   //calculate years left on planet, in that planet's years
   // earthLifespan() {
@@ -39,6 +48,9 @@ export default class Person {
 
   mercuryYearsLeft() {
     return Math.floor((this.lifespan - this.age) / 0.24)
+  }
 
+  venusYearsLeft() {
+    
   }
 }

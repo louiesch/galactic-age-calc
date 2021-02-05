@@ -25,14 +25,18 @@ describe('Person', () => {
   });
 
   test("should correctly return users age in Jupiter years", () => {
-    expect(person.getJupiterAge()).toEqual(Math.floor(23 / 11.86))
+    expect(person.getJupiterAge()).toEqual(Math.floor(23 / 11.86));
   });
 
   test("should correctly return expected years left to live on Earth", () => {
-    expect(person.earthYearsLeft()).toEqual(Math.floor(81 - 23))
+    expect(person.earthYearsLeft()).toEqual(Math.floor(81 - 23));
   });
 
   test("should correctly return expected years to live on Mercury", () => {
-    expect(person.mercuryYearsLeft()).toEqual(Math.floor((81-23) / 0.24))
+    expect(person.mercuryYearsLeft()).toEqual(Math.floor((81-23) / 0.24));
+  });
+
+  test("should correctly return expected years to live on Venus", () => {
+    expect(person.venusYearsLeft()).toEqual(Math.floor((81-23) / 0.62));
   });
 });
