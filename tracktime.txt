@@ -1,3 +1,3 @@
 9:13AM: Currently going back through lessons to get Jest set up and running properly
 10:00AM: Still having issues with Jest VS Code extension
-10:30AM: Will try reinstalling extension again
+10:30AM: Will try reinstalling extension again. Working now, onto writing tests.
