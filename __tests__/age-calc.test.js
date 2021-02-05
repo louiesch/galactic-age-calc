@@ -3,6 +3,7 @@ import ageCalc from '../src/age-calc.js';
 
 describe('ageCalc', () => {
   test('should correctly return users age in earth years', () => {
-    const person = new Person()
-  })
-})
+    const person = new Person(23);
+    expect(person.age).toEqual(23);
+  });
+});
