@@ -56,7 +56,7 @@ describe('Person', () => {
     oldPerson = new Person(80, 76);
   });
 
-  test("should determine if user has surpassed life expectancy", () => {
+  test("should determine how much user has surpassed life expectancy", () => {
     expect(oldPerson.yearsPast()).toEqual(4)
   })
 });
