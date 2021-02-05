@@ -4,14 +4,14 @@ export default class Person {
   }
 
   getMercuryAge() {
-    return(this.age / 0.24)
+    return Math.floor(this.age / 0.24)
   }
 
   getVenusAge() {
-    return(this.age / 0.62)
+    return Math.floor(this.age / 0.62)
   }
 
   getMarsAge() {
-    return(this.age / 1.88)
+    return Math.floor(this.age / 1.88)
   }
 }
