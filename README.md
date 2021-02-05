@@ -1,6 +1,6 @@
-# _{Application Name}_
+# _Super Galactic Age Calculator_
 
-#### _{Brief description of application}_
+#### _Business logic for calculating user's age on different planets._
 
 #### By _**Louie Schoenknecht**_
 
@@ -21,11 +21,11 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This project was made for my week 5 independent Friday project at Epicodus. The primary purpose is to practice testing each part of the application using Jest. As such there is no UI in place._
 
 ## Setup/Installation Requirements
 
-* _Clone repository from GitHub using: $ git clone https://github.com/louiesch/template-repo_
+* _Clone repository from GitHub using: $ git clone https://github.com/louiesch/galactic-age-calc_
 * _Open project directory in terminal_
 * _Re-build project environment using command $ npm install_
 * _Create project environment using command $ npm run build_
