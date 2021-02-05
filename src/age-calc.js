@@ -43,14 +43,14 @@ export default class Person {
   // };
 
   earthYearsLeft() {
-    return Math.floor(this.lifespan - this.age)
+    return Math.floor(this.lifespan - this.age);
   }
 
   mercuryYearsLeft() {
-    return Math.floor((this.lifespan - this.age) / 0.24)
+    return Math.floor((this.lifespan - this.age) / 0.24);
   }
 
   venusYearsLeft() {
-    
+    return Math.floor((this.lifespan - this.age) / 0.62);
   }
 }
