@@ -39,4 +39,8 @@ describe('Person', () => {
   test("should correctly return expected years to live on Venus", () => {
     expect(person.venusYearsLeft()).toEqual(Math.floor((81-23) / 0.62));
   });
+  
+  test("should correctly return expected years to live on Mars", () => {
+    expect(person.marsYearsLeft()).toEqual(Math.floor((81-23) / 1.88));
+  });
 });
