@@ -32,7 +32,7 @@ export default class Person {
 
   getJupiterAge() {
     let ageOnJupiter = Math.floor(this.age / 11.86);
-    return ageOnJupiter
+    return ageOnJupiter;
   }
 
   //calculate years left on planet, in that planet's years
@@ -64,5 +64,9 @@ export default class Person {
 
   jupiterYearsLeft() {
     return ((this.lifespan - this.age) / 11.86);
+  }
+
+  yearsPast() {
+  
   }
 }

@@ -5,7 +5,7 @@ describe('Person', () => {
   let person;
 
   beforeEach(() => {
-    person = new Person(23, 81);
+    person = new Person(23, 76);
   });
 
   //tests for age in given planet's years
@@ -31,22 +31,32 @@ describe('Person', () => {
 
   //tests for years left to live
   test("should correctly return expected years left to live on Earth", () => {
-    expect(person.earthYearsLeft()).toEqual(81 - 23);
+    expect(person.earthYearsLeft()).toEqual(76 - 23);
   });
 
   test("should correctly return expected years to live on Mercury", () => {
-    expect(person.mercuryYearsLeft()).toEqual((81-23) / 0.24);
+    expect(person.mercuryYearsLeft()).toEqual((76-23) / 0.24);
   });
 
   test("should correctly return expected years to live on Venus", () => {
-    expect(person.venusYearsLeft()).toEqual((81-23) / 0.62);
+    expect(person.venusYearsLeft()).toEqual((76-23) / 0.62);
   });
 
   test("should correctly return expected years to live on Mars", () => {
-    expect(person.marsYearsLeft()).toEqual((81-23) / 1.88);
+    expect(person.marsYearsLeft()).toEqual((76-23) / 1.88);
   });
 
   test("should correctly return expected years to live on Jupiter", () => {
-    expect(person.jupiterYearsLeft()).toEqual((81-23) / 11.86);
+    expect(person.jupiterYearsLeft()).toEqual((76-23) / 11.86);
   });
+
+  let oldPerson;
+
+  beforeEach(() => {
+    oldPerson = new Person(80, 76);
+  });
+
+  test("should determine if user has surpassed life expectancy", () => {
+    expect(oldPerson.yearsPast()).toEqual(4)
+  })
 });
