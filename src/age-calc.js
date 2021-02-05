@@ -4,6 +4,7 @@ export default class Person {
     this.lifespan = lifespan;
   }
 
+//calculate age on given planet
   getMercuryAge() {
     return Math.floor(this.age / 0.24)
   }
@@ -19,12 +20,25 @@ export default class Person {
   getJupiterAge() {
     return Math.floor(this.age / 11.86)
   }
+  
+
+  //calculate years left on planet, in that planet's years
+  // earthLifespan() {
+  //   let worldAverage = 73;
+  //   if (this.gender === "male") {
+  //     worldAverage -= 3;
+  //   } else {
+  //     worldAverage +=3;
+  //   };
+  //   return worldAverage
+  // };
 
   earthYearsLeft() {
     return Math.floor(this.lifespan - this.age)
   }
 
   mercuryYearsLeft() {
-    
+    return Math.floor((this.lifespan - this.age) / 0.24)
+
   }
 }
