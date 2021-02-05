@@ -21,6 +21,6 @@ export default class Person {
   }
 
   earthYearsLeft() {
-    
+    return Math.floor(81 - this.age)
   }
 }
