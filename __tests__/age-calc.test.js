@@ -8,7 +8,7 @@ describe('Person', () => {
     person = new Person(23);
   });
 
-  test('should correctly return users age in earth years', () => {
+  test("should correctly return users age in earth years", () => {
     expect(person.age).toEqual(23);
   });
 
@@ -18,5 +18,9 @@ describe('Person', () => {
   
   test("should correctly return users age in Venus years", () => {
     expect(person.getVenusAge()).toEqual(23 / 0.62);
+  });
+  
+  test("should correctly return users age in Mars years", () => {
+    expect(person.getMarsAge()).toEqual(23 / 1.88);
   });
 });
