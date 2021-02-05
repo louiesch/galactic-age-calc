@@ -1,1 +1,2 @@
 9:13AM: Currently going back through lessons to get Jest set up and running properly
+10:00AM: Still having issues with Jest
