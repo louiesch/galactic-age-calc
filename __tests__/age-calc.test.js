@@ -57,6 +57,6 @@ describe('Person', () => {
   });
 
   test("should determine how much user has surpassed life expectancy", () => {
-    expect(oldPerson.yearsPast()).toEqual(4)
+    expect(oldPerson.yearsPast()).toEqual("Looks like you are 4 years older than the average lifespan!")
   })
 });

@@ -2,12 +2,12 @@ export default class Person {
   constructor(age, lifespan) {
     this.age = age;
     this.lifespan = lifespan;
-//    this.yearsLeft = [];
-//    this.planets = ['Earth', 'Mercury', 'Venus', 'Mars', 'Jupiter']
-//    this.yearConversionRate = {Earth: 1, Mercury: 0.24, Venus: 0.62, Mars: 1.88, Jupiter: 11.86}
+    //this.yearsLeft = [];
+    //this.planets = ['Earth', 'Mercury', 'Venus', 'Mars', 'Jupiter']
+    //this.yearConversionRate = {Earth: 1, Mercury: 0.24, Venus: 0.62, Mars: 1.88, Jupiter: 11.86}
   }
 
-//calculate age on given planet
+  //calculate age on given planet
   // getPlanetAge() {
   //   for (let i = 0; i < this.planets.length; i++) {
   //     let planet = this.planets[i];
@@ -65,10 +65,13 @@ export default class Person {
   jupiterYearsLeft() {
     return ((this.lifespan - this.age) / 11.86);
   }
-
+  
   yearsPast() {
+    let diff = (this.age - this.lifespan);
+    let stringLiteral = `Looks like you are ${diff} years older than the average lifespan!`;
     if (this.lifespan < this.age); {
-      return (this.age - this.lifespan)
+      return stringLiteral;
     }
   }
 }
+
