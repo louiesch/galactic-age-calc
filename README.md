@@ -21,7 +21,7 @@
 
 ## Description
 
-_This project was made for my week 5 independent Friday project at Epicodus. The primary purpose is to practice testing each part of the application using Jest. As such there is no UI in place._
+_This project was made for my week 5 independent Friday project at Epicodus. The primary purpose is to practice testing each part of the application using Jest. As such there is no UI in place. This program calculates the user's age in years on various planets in our solar system. For instance, I am 23 years old on Earth, but since a year on Mars is equal to 1.88 Earth years, I am only 12 years old on Mars. The program also calculates the amount of years the user has left to live based on the average life expectancy, and adjusts the number for each planet's different orbital speed._
 
 ## Setup/Installation Requirements
 

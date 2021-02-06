@@ -11,3 +11,4 @@
 3:25PM keep trying to refactor, can't seem to figure it out. Will move on to check if age has surpassed life expectancy
 3:50PM at this point all required functionality is in place. Looks like I still need template literals though, need to figure out where to put those.
 3:55PM added template literal, but it broke last test. Won't commit until fixed.
+4:10PM figured the template literal out. Now just trying to refactor, will leave commented out code to go over with a teacher.
