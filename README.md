@@ -33,8 +33,7 @@ _This project was made for my week 5 independent Friday project at Epicodus. The
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs._
 
 ## License
 
